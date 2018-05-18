@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta content='text/html; charset=UTF-8' http-equiv='Content-Type' />
+  </head>
+<body>
+<h1>New Applicant: <%= @applicant.name %> </h1>
+
+<ul>
+<li> <%= @applicant.name %> </li>
+<li> <%= @applicant.dob %> </li>
+<li> $ <%= @applicant.rate %> </li>
+<li> <%= @applicant.hours %> </li>
+<li> <%= @applicant.phone %> </li>
+<li> <%= @applicant.email %> </li>
+</ul>
+
+<p> Applied at <%= @applicant.created_at %> </p>
+
+</body>
+</html>
