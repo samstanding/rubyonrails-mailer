@@ -25,8 +25,6 @@ class ApplicantsController < ApplicationController
   # POST /applicants.json
   def create
     @applicant = Applicant.new(applicant_params)
-  
-    
 
     respond_to do |format|
       if @applicant.save
